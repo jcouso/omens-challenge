@@ -57,7 +57,7 @@ class Rental
 
     apply_credit(who: "insurance", amount: insurance)
     apply_credit(who: "assistance", amount: assistance)
-    apply_credit(who: "drivy_fee", amount: drivy_fee)
+    apply_credit(who: "drivy", amount: drivy_fee)
   end
 
   def apply_debits

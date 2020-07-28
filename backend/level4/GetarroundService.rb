@@ -9,9 +9,6 @@ class GetArroundService
     @rentals = data["rentals"]
   end
 
-  def run
-  end
-
   def get_car(car_id)
     @cars.select { |car| car["id"] == car_id }.first
   end
